@@ -33,6 +33,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
 
+# LiveDisplay
+$(call soong_config_set,livedisplay_sysfs,enable_ab,true)
+
 # Moto Camera 2
 TARGET_MOTCAMERA2 := nevis
 TARGET_USES_MOTCAMERA2 := true
