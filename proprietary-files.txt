@@ -253,6 +253,8 @@ vendor/firmware/novatek_ts_fw.bin
 vendor/firmware/novatek_ts_mp.bin
 
 # Touchscreen firmware (recovery)
+vendor/firmware/aw869x_haptic.bin:recovery/root/vendor/firmware/aw869x_haptic.bin
+vendor/firmware/aw869x_rtp.bin:recovery/root/vendor/firmware/aw869x_rtp.bin
 vendor/firmware/FOCAL_FW_HLT_FT8006S.bin:recovery/root/vendor/firmware/FOCAL_FW_HLT_FT8006S.bin
 vendor/firmware/ICNL9911.bin:recovery/root/vendor/firmware/ICNL9911.bin
 vendor/firmware/ILITEK_FW_HLT.hex:recovery/root/vendor/firmware/ILITEK_FW_HLT.hex
@@ -263,6 +265,10 @@ vendor/firmware/hlt_Himax_mpfw.bin:recovery/root/vendor/firmware/hlt_Himax_mpfw.
 vendor/firmware/hlt_hx_criteria.csv:recovery/root/vendor/firmware/hlt_hx_criteria.csv
 vendor/firmware/novatek_ts_fw.bin:recovery/root/vendor/firmware/novatek_ts_fw.bin
 vendor/firmware/novatek_ts_mp.bin:recovery/root/vendor/firmware/novatek_ts_mp.bin
+
+# Vibrator firmware
+vendor/firmware/aw869x_haptic.bin
+vendor/firmware/aw869x_rtp.bin
 
 # WiFi
 vendor/bin/cnss-daemon
